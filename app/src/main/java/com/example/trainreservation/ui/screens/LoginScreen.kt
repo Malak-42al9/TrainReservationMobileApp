@@ -26,8 +26,8 @@ fun LoginScreen(
     onLoginClick: (String, String) -> Unit,
     onGoToSignUp: () -> Unit
 ) {
-    var email by rememberSaveable { mutableStateOf("malak42@gmail.com") }
-    var password by rememberSaveable { mutableStateOf("767676") }
+    var email by rememberSaveable { mutableStateOf("") }
+    var password by rememberSaveable { mutableStateOf("") }
 
     var emailError by rememberSaveable { mutableStateOf("") }
     var passwordError by rememberSaveable { mutableStateOf("") }

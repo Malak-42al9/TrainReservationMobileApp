@@ -25,11 +25,11 @@ import com.example.trainreservation.ui.model.PassengerInfo
 fun PassengerScreen(
     onContinueClick: (PassengerInfo) -> Unit
 ) {
-    var fullName by remember { mutableStateOf("Malak Adel Mohammed") }
-    var email by remember { mutableStateOf("malak@gmail.com") }
-    var phone by remember { mutableStateOf("0534875875") }
-    var idNumber by remember { mutableStateOf("76539554") }
-    var gender by remember { mutableStateOf("female") }
+    var fullName by remember { mutableStateOf("") }
+    var email by remember { mutableStateOf("") }
+    var phone by remember { mutableStateOf("") }
+    var idNumber by remember { mutableStateOf("") }
+    var gender by remember { mutableStateOf("") }
     var genderExpanded by remember { mutableStateOf(false) }
 
 

@@ -38,8 +38,8 @@ fun SearchScreen(
     onSignUpClick: () -> Unit,
     onLogoutClick: () -> Unit
 ) {
-    var from by remember { mutableStateOf("Istanbul") }
-    var to by remember { mutableStateOf("Ankara") }
+    var from by remember { mutableStateOf("") }
+    var to by remember { mutableStateOf("") }
     var dateText by remember { mutableStateOf("") }
     var showDatePicker by remember { mutableStateOf(false) }
 

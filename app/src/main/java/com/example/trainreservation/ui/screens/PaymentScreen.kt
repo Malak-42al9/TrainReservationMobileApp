@@ -32,10 +32,10 @@ fun PaymentScreen(
 ) {
     val snackbarHostState = remember { SnackbarHostState() }
 
-    var cardName by rememberSaveable { mutableStateOf("Malak Adel") }
-    var cardNumber by rememberSaveable { mutableStateOf("123456789012") }
-    var expiryDate by rememberSaveable { mutableStateOf("12/28") }
-    var cvv by rememberSaveable { mutableStateOf("123") }
+    var cardName by rememberSaveable { mutableStateOf("") }
+    var cardNumber by rememberSaveable { mutableStateOf("") }
+    var expiryDate by rememberSaveable { mutableStateOf("") }
+    var cvv by rememberSaveable { mutableStateOf("") }
 
     var cardNameError by remember { mutableStateOf(false) }
     var cardNumberError by remember { mutableStateOf(false) }
