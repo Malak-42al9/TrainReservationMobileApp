@@ -67,7 +67,7 @@ fun AppNavigation(
 
             // CHANGE THIS:
             // If you don't want the old Start screen anymore, use SEARCH
-            startDestination = AppRoutes.SEARCH
+            startDestination = AppRoutes.START
         ) {
 
             composable(AppRoutes.START) {
